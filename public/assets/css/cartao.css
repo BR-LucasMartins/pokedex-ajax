@@ -1,0 +1,144 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 100%;
+    max-width: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 70px 30px 20px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+
+/* color by Types */
+.tipo-fire {
+    background-color: #FE9E53;
+}
+
+.tipo-electric {
+    background-color: #FCC719;
+}
+
+.tipo-water {
+    background-color: #76BEFE;
+}
+
+.tipo-grass {
+    background-color: #49D0B0;
+}
+
+.tipo-normal {
+    background-color: #C29791;
+}
+
+.tipo-bug{
+    background-color: #C7DE9E;
+}
+
+.tipo-fairy{
+    background-color: #EE99E1;
+}
+
+.tipo-fighting{
+    background-color: #D34162;
+}
+
+.tipo-dragon{
+    background-color: #086EBF;
+}
+
+.tipo-ghost{
+    background-color: #606DBB;
+}
+
+.tipo-dark{
+    background-color: #5E5A6C;
+}
+
+.tipo-poison{
+    background-color: #B163CC;
+}
+
+.tipo-ice {
+    background-color: #7AD1C5;
+}
+
+.tipo-flying{
+    background-color: #9DB7E7;
+}
+
+.tipo-rock{
+    background-color: #CDBF8F;
+}
+
+.tipo-steel {
+    background-color: #959B9E;
+}
+
+.tipo-psychic {
+    background-color: #F86F75;
+}
+
+.tipo-ground{
+   background-color: #D87C4B;
+}
